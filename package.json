@@ -1,14 +1,14 @@
 {
-  "name": "generator-nod",
+  "name": "material-ui-cookie-consent",
   "version": "0.0.1",
-  "description": "My node module",
+  "description": "Cookie consent UI using Material-UI components",
   "license": "MIT",
-  "repository": "diegohaz/nod",
+  "repository": "https://github.com/OrigenStudio/material-ui-cookie-consent",
   "main": "dist/index.js",
   "author": {
-    "name": "Diego Haz",
-    "email": "hazdiego@gmail.com",
-    "url": "https://github.com/diegohaz"
+    "name": "Origen Studio",
+    "email": "hello@origen.studio",
+    "url": "https://www.origen.studio"
   },
   "files": [
     "dist",
@@ -42,7 +42,8 @@
     ]
   },
   "keywords": [
-    "generator-nod"
+    "material-ui",
+    "cookies"
   ],
   "dependencies": {},
   "devDependencies": {
