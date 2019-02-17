@@ -14,6 +14,7 @@ declare var window: any;
 declare var document: any;
 
 type Props = {
+  /** component type a Snackbar or Default */
   componentType?: "Dialog" | "Snackbar",
   cookieName: string,
   acceptOnScroll?: boolean,
@@ -37,6 +38,9 @@ type State = {
   visible: boolean
 };
 
+/**
+ * This component is the MUICookieConsent it pops a Snackbar or a Dialog informing the user about cookie consent.
+ */
 export default class MUICookieConsent extends React.Component<Props, State> {
   defaultProps = {
     componentType: "Snackbar",
@@ -53,7 +57,7 @@ export default class MUICookieConsent extends React.Component<Props, State> {
     acceptButtonLabel: "Accept"
   };
 
-  constructor(props) {
+  constructor(props: Props) {
     super(props);
     this.state = {
       visible: false
