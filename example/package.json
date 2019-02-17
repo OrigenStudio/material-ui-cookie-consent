@@ -1,9 +1,13 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "material-ui-cookie-consent-example",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Cookie consent UI using Material-UI components",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": {
+    "name": "Origen Studio",
+    "email": "hello@origen.studio",
+    "url": "https://www.origen.studio"
+  },
   "dependencies": {
     "gatsby": "^2.1.4",
     "gatsby-image": "^2.0.29",
