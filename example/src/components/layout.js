@@ -29,9 +29,9 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            © {new Date().getFullYear()}, Built with
+            Built by
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
+            <a href="https://www.origen.studio">Origen Studio</a>
           </footer>
         </div>
       </>
