@@ -32,7 +32,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build && surge public material-ui-cookies-consent.origen.studio"
+    "deploy": "gatsby build && surge public material-ui-cookie-consent.origen.studio"
   },
   "repository": {
     "type": "git",
