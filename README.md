@@ -13,6 +13,19 @@ or
 ````
 npm install material-ui-cookie-consent
 ````
+## Usage - Simple example
+````js
+import MUICookieConsent from 'material-ui-cookie-consent';
+
+// ....
+<MUICookieConsent 
+  cookieName="mySiteCookieConsent"
+  componentType="Dialog" // default value is Snackbar
+  message="This site uses cookies.... bla bla..."
+/>
+//....
+
+````
 
 ## API
 
