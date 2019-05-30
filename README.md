@@ -23,14 +23,16 @@ This package has the following peer dependencies that need to be installed manua
 ```sh
 yarn add material-ui-cookie-consent
 ```
+
 or
+
 ```sh
 npm install material-ui-cookie-consent
 ```
 
 ## Usage - Simple example
 
-````js
+```js
 import MUICookieConsent from 'material-ui-cookie-consent';
 
 // ....
@@ -40,8 +42,7 @@ import MUICookieConsent from 'material-ui-cookie-consent';
   message="This site uses cookies.... bla bla..."
 />
 //....
-
-````
+```
 
 ## API
 
