@@ -15,7 +15,7 @@
     "src"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "echo There are no tests yet.\n",
     "coverage": "npm test -- --coverage",
     "postcoverage": "opn coverage/lcov-report/index.html",
     "lint": "eslint .",
