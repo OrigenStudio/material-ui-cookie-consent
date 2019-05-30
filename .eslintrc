@@ -4,11 +4,15 @@
     "airbnb-base",
     "plugin:flowtype/recommended",
     "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "prettier",
     "prettier/flowtype"
   ],
   "plugins": [
     "flowtype",
-    "flowtype-errors"
+    "flowtype-errors",
+    "prettier",
+    "react"
   ],
   "env": {
     "jest": true
