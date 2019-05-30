@@ -93,8 +93,9 @@ export default class MUICookieConsent extends React.Component<Props, State> {
       if (rootNode) {
         // (top / (height - height)) * 100
         const percentage =
-          (rootNode.scrollTop / (rootNode.scrollHeight -
-          rootNode.clientHeight)) * 100;
+          (rootNode.scrollTop /
+            (rootNode.scrollHeight - rootNode.clientHeight)) *
+          100;
 
         if (percentage > acceptOnScrollPercentage) {
           this.handleAccept();
