@@ -10,7 +10,6 @@
   ],
   "plugins": [
     "flowtype",
-    "flowtype-errors",
     "prettier",
     "react"
   ],
@@ -18,6 +17,6 @@
     "jest": true
   },
   "rules": {
-    "flowtype-errors/show-errors": "error"
+    "import/no-unresolved": [2, { "ignore": ["react", "@material-ui\/.*"] }]
   }
 }
