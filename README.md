@@ -1,19 +1,35 @@
-WIP...
+# Material-UI Cookie Consent
+
+Material-UI component that show a cookie consent message.
 
 ## Example
 
 Check this [example site](https://material-ui-cookie-consent.origen.studio)
 
+## Dependencies
+
+This package has the following peer dependencies that need to be installed manually:
+
+```json
+{
+    "@material-ui/core": "^4.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+}
+```
+
 ## Installation
 
-```
+```sh
 yarn add material-ui-cookie-consent
 ```
 or
-````
+```sh
 npm install material-ui-cookie-consent
-````
+```
+
 ## Usage - Simple example
+
 ````js
 import MUICookieConsent from 'material-ui-cookie-consent';
 
