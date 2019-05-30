@@ -6,15 +6,10 @@ WIP...
 
 #### Table of Contents
 
--   [componentType](#componenttype)
 -   [MUICookieConsent](#muicookieconsent)
     -   [Parameters](#parameters)
     -   [handleScroll](#handlescroll)
-    -   [accept](#accept)
-
-### componentType
-
-component type a Snackbar or Default
+    -   [handleAccept](#handleaccept)
 
 ### MUICookieConsent
 
@@ -30,6 +25,6 @@ This component is the MUICookieConsent it pops a Snackbar or a Dialog informing 
 
 checks whether scroll has exceeded set amount and fire accept if so.
 
-#### accept
+#### handleAccept
 
 Set a persistent cookie
