@@ -32,6 +32,7 @@ type Props = {
     horizontal: 'left' | 'center' | 'right',
     vertical: 'top' | 'bottom',
   },
+  actions?: ?React.Node,
 };
 type State = {
   visible: boolean,
@@ -55,6 +56,7 @@ export default class MUICookieConsent extends React.Component<Props, State> {
     message: 'I love cookies!',
     title: null,
     acceptButtonLabel: 'Accept',
+    actions: null,
   };
 
   constructor(props: Props) {
@@ -140,6 +142,7 @@ export default class MUICookieConsent extends React.Component<Props, State> {
       snackbarAnchor,
       title,
       acceptButtonLabel,
+      actions,
     } = this.props;
 
     const childrenWithProps = React.Children.map(children, child =>
@@ -158,6 +161,7 @@ export default class MUICookieConsent extends React.Component<Props, State> {
             open={this.state.visible}
             message={<span id="message-id">{message}</span>}
             action={[
+              ...React.Children.toArray(actions),
               <Button
                 key="accept"
                 color="secondary"
@@ -186,6 +190,7 @@ export default class MUICookieConsent extends React.Component<Props, State> {
                   </DialogContentText>
                 </DialogContent>
                 <DialogActions>
+                  {actions}
                   <Button onClick={this.handleAccept} color="secondary">
                     {acceptButtonLabel}
                   </Button>
