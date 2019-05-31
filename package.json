@@ -1,6 +1,6 @@
 {
   "name": "material-ui-cookie-consent",
-  "version": "0.1.0-rc.1",
+  "version": "0.1.0",
   "description": "Cookie consent UI using Material-UI components",
   "license": "MIT",
   "repository": "https://github.com/OrigenStudio/material-ui-cookie-consent",
