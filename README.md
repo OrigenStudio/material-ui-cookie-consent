@@ -1,4 +1,47 @@
-WIP...
+# Material-UI Cookie Consent
+
+Material-UI component that show a cookie consent message.
+
+## Example
+
+Check this [example site](https://material-ui-cookie-consent.origen.studio)
+
+## Dependencies
+
+This package has the following peer dependencies that need to be installed manually:
+
+```json
+{
+    "@material-ui/core": "^4.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+}
+```
+
+## Installation
+
+```sh
+yarn add material-ui-cookie-consent
+```
+or
+```sh
+npm install material-ui-cookie-consent
+```
+
+## Usage - Simple example
+
+````js
+import MUICookieConsent from 'material-ui-cookie-consent';
+
+// ....
+<MUICookieConsent 
+  cookieName="mySiteCookieConsent"
+  componentType="Dialog" // default value is Snackbar
+  message="This site uses cookies.... bla bla..."
+/>
+//....
+
+````
 
 ## API
 
@@ -6,15 +49,10 @@ WIP...
 
 #### Table of Contents
 
--   [componentType](#componenttype)
 -   [MUICookieConsent](#muicookieconsent)
     -   [Parameters](#parameters)
     -   [handleScroll](#handlescroll)
-    -   [accept](#accept)
-
-### componentType
-
-component type a Snackbar or Default
+    -   [handleAccept](#handleaccept)
 
 ### MUICookieConsent
 
@@ -30,6 +68,6 @@ This component is the MUICookieConsent it pops a Snackbar or a Dialog informing 
 
 checks whether scroll has exceeded set amount and fire accept if so.
 
-#### accept
+#### handleAccept
 
 Set a persistent cookie

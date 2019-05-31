@@ -9,6 +9,7 @@
     "url": "https://www.origen.studio"
   },
   "dependencies": {
+    "@material-ui/core": "^4.0.1",
     "gatsby": "^2.1.4",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-manifest": "^2.0.17",
@@ -17,6 +18,7 @@
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-source-filesystem": "^2.0.20",
     "gatsby-transformer-sharp": "^2.1.13",
+    "material-ui-cookie-consent": "^0.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
