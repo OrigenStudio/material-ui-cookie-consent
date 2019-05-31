@@ -4,16 +4,19 @@
     "airbnb-base",
     "plugin:flowtype/recommended",
     "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "prettier",
     "prettier/flowtype"
   ],
   "plugins": [
     "flowtype",
-    "flowtype-errors"
+    "prettier",
+    "react"
   ],
   "env": {
     "jest": true
   },
   "rules": {
-    "flowtype-errors/show-errors": "error"
+    "import/no-unresolved": [2, { "ignore": ["react", "@material-ui\/.*"] }]
   }
 }

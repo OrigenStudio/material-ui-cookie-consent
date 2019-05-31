@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Typography from '@material-ui/core/Typography';
 import MUICookieConsent from "material-ui-cookie-consent"; // using link
 
 import Layout from "../components/layout";
@@ -16,10 +17,10 @@ const IndexPage = () => (
       title="Material UI Cookie Consent Component"
       keywords={[`Material UI`, `react`, `cookies`]}
     />
-    <h1>Example page for Material UI Cookie Consent</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/">Back to snackbar</Link>
+    <Typography variant="h5" component="h1" gutterBottom>Example page for Material UI Cookie Consent</Typography>
+    <Typography gutterBottom>
+      <Link to="/">Back to snackbar</Link>
+    </Typography>
   </Layout>
 );
 

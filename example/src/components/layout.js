@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
+import Typography from '@material-ui/core/Typography';
+import MUILink from '@material-ui/core/Link';
 
 import Header from "./header";
 import "./layout.css";
@@ -29,9 +31,9 @@ const Layout = ({ children }) => (
         >
           <main>{children}</main>
           <footer>
-            Built by
-            {` `}
-            <a href="https://www.origen.studio">Origen Studio</a>
+            <Typography variant="overline">
+              Built by <MUILink href="https://www.origen.studio">Origen Studio</MUILink>
+            </Typography>
           </footer>
         </div>
       </>
