@@ -87,9 +87,30 @@ This component is the MUICookieConsent it pops a Snackbar or a Dialog informing 
 
 #### Parameters
 
--   `props` **Props** 
+- `props` **Props** 
+
+- componentType?: 'Dialog' | 'Snackbar',
+- cookieName: string,
+- cookieValue?: string | boolean | number,
+- acceptOnScroll?: boolean,
+- acceptOnScrollPercentage?: number,
+- onAccept?: () => void | null,
+- expires?: number | Date,
+- hideOnAccept?: boolean,
+- children?: React.Node,
+- title?: string | null,
+- message?: string,
+- acceptButtonLabel?: string,
+- debug?: boolean,
+- extraCookieOptions?: any,
+- snackbarAnchor?: {
+-   horizontal: 'left' | 'center' | 'right',
+-   vertical: 'top' | 'bottom',
+- },
+- actions?: ?React.Node,
 
 #### handleScroll
+
 
 checks whether scroll has exceeded set amount and fire accept if so.
 
