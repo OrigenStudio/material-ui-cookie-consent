@@ -5531,9 +5531,9 @@ homedir-polyfill@^1.0.1:
     parse-passwd "^1.0.0"
 
 hosted-git-info@^2.1.4, hosted-git-info@^2.6.0:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
-  integrity sha512-7T/BxH19zbcCTa8XkMlbK5lTo1WtgkFi3GvdWEyNuc4Vex7/9Dqbnpsf4JMydcfj9HCg4zUWFTL3Za6lapg5/w==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -7041,8 +7041,10 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-"material-ui-cookie-consent@file:.yalc/material-ui-cookie-consent":
-  version "0.1.0-rc.1-f269eb31"
+material-ui-cookie-consent@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/material-ui-cookie-consent/-/material-ui-cookie-consent-0.1.0.tgz#26a28b1a22094a9ba1ee477b121493f36ad56700"
+  integrity sha512-ye2R5KgIqDrrYrA3n0OPuL525HrN6zIGZma7KRA1uQe76qGb4BFWj0ogw50UVoByo5CE8k6Be0LRGQ0OznLCPQ==
   dependencies:
     js-cookie "^2.2.0"
 
